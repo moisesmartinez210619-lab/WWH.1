@@ -38,7 +38,7 @@ header{
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#fff;
+  color:blue;
   font-weight:700;
   font-size:20px;
   box-shadow:var(--card-shadow);
