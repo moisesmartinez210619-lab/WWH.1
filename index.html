@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title> Words Wid Histori </title>
+  <title>Words Wid Histori</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="app">
     <header>
-      <div class="logo">LBH</div>
+      <div class="logo">🏝️</div>
       <div>
-        <h1> Words Wid Histori </h1>
-        <p class="lead">Busca una palabra en kriol y obtén la traducción en español.</p>
+        <h1>Words Wid Histori</h1>
+        <p class="subtitle">Preservando el kriol de San Andrés</p>
       </div>
     </header>
 
@@ -20,11 +20,9 @@
       <div class="searchCard">
         <div class="searchRow">
           <input id="search" class="searchInput" type="search" placeholder="Buscar palabra..." autocomplete="off">
-          <div class="count" id="count">0</div>
+          <div class="count" id="count"></div>
         </div>
-       
       </div>
-
       <div id="results" class="results">
         <div class="noResults" id="noResults">Escribe algo para buscar.</div>
       </div>
@@ -32,10 +30,16 @@
 
     <aside>
       <div class="panel">
-       
+        <div class="lbh-credit">
+          📚 Diccionario creado por <strong>LBH Tech</strong>
+        </div>
       </div>
     </aside>
   </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
   <script src="app.js"></script>
 </body>
